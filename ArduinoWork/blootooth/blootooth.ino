@@ -1,10 +1,10 @@
 #include <SoftwareSerial.h>
 int r =7, g = 5, b =3;
 
-SoftwareSerial bluetooth(9,10); // tx , rx
+ // tx , rx
 // #include <SoftwareSerial.h>
 
-// SoftwareSerial bluetooth(10, 11);   // RX:11, TX:10 => 연결 반대로
+SoftwareSerial bluetooth(11, 12);   // RX:11, TX:10 => 연결 반대로
 
 // 시리얼모니터 열고
 // AT 엔터 -> 응답 OK

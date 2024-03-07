@@ -1,0 +1,10 @@
+터미널에 아래와 같이 실행하여 설치해야 함
+pip install --upgrade pip setuptools wheel
+sudo apt install python3-opencv
+sudo nano /etc/dphys-swapfile
+CONF_SWAPSIZE 값을 기본값 100에서 1024로 변경합니다.
+/etc/dphys-swapfile
+CONF_SWAPSIZE=1024
+파일을 저장하고 다음 명령을 실행하여 변경 내용을 적용합니다.
+sudo /etc/init.d/dphys-swapfile restart
+sudo pip install flask
